@@ -1,0 +1,58 @@
+/*Прописуємо CSS змінні через root: (tag html означає одне і теж)*/
+:root{
+    --color-brand: #819857;
+    --color-brand-dark: #465929;
+    --color-primary-light:#faf4ea;
+    --color-primary-dark:#31261a;
+}
+
+/* Base */
+ul {
+    list-style-type: none;
+}
+
+body{
+    color: var(--color-primary-dark);
+}
+
+.btn{
+    background-color:var(--color-brand);
+    border-radius: 8px;
+    border:2px solid var(--color-brand);
+    color: var(--color-primary-light);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: var(--color-brand-dark);
+}
+
+.btn:active{
+    background-color:var(--color-brand); 
+} 
+
+.link{
+color: var(--color-primary-light)
+}
+
+.link:hover{
+color: var(--color-brand);
+}
+
+.hero-title{
+    color:var(--color-primary-light);
+}
+
+.hero-title .accent{
+    color: var(--color-brand);
+}
+
+.advantages-list{
+color: var(--color-primary-light);/* HEX value */
+background-color: var(--color-brand);
+    }
+
+.section-title .accent{
+    color: var(--color-brand-dark);
+}
