@@ -13,6 +13,17 @@ ul {
 
 body{
     color: var(--color-primary-dark);
+    font-weight: 400;
+    font-size: 18px;
+            font-family: "Libertinus Math", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1.5;
+        
+}
+
+.address-link{
+    font-style: normal;
 }
 
 .btn{
@@ -21,6 +32,7 @@ body{
     border:2px solid var(--color-brand);
     color: var(--color-primary-light);
     cursor: pointer;
+    font-weight: 600;
 }
 
 .btn:hover{
@@ -33,15 +45,19 @@ body{
 } 
 
 .link{
-color: var(--color-primary-light)
+color: var(--color-primary-light);
+line-height: 1.5;
+text-decoration: none;
 }
 
 .link:hover{
 color: var(--color-brand);
+font-weight: 600;
 }
 
 .hero-title{
     color:var(--color-primary-light);
+    
 }
 
 .hero-title .accent{
@@ -53,6 +69,66 @@ color: var(--color-primary-light);/* HEX value */
 background-color: var(--color-brand);
     }
 
+.adv-item{
+font-size: 20px;
+font-weight: 300;
+    }
+
+    .section-title{
+        font-size: 64px;
+        font-weight: 900;
+        line-height: 1.3;
+    }
+
 .section-title .accent{
     color: var(--color-brand-dark);
+}
+
+/* Traditions-text */
+
+.traditions-text span{
+font-weight: 600;
+    color: var(--color-brand);
+}
+
+.brand{
+    text-transform: uppercase;
+}
+
+/* chefs-section */
+
+.chefs-title{
+    font-size: 40;
+    font-weight: 600;
+}
+
+/* formats */
+
+.format-title{
+    font-size: 24;
+        font-weight: 600;
+}
+
+.format-text{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* footer */
+.address-link{
+    color: var(--color-primary-light);
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.address-link:hover {
+    color: var(--color-brand);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.address-copyright{
+    font-size: 14px;
+    font-style: normal;
 }

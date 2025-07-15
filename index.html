@@ -4,14 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mordern Bakery</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="#">LOGO</a>
         <!--logo -->
-        <ul >
+        <ul>
           <li><a class="link" href="#">Franchise</a></li>
           <li><a class="link" href="#">Our Traditions</a></li>
           <li><a class="link" href="#">Formats</a></li>
@@ -27,26 +34,30 @@
       </section>
       <section>
         <ul class="advantages-list">
-          <li>Market Demand</li>
-          <li>Good Formats</li>
-          <li>Experienced company team</li>
+          <li class="adv-item">Market Demand</li>
+          <li class="adv-item">Good Formats</li>
+          <li class="adv-item">Experienced company team</li>
         </ul>
         <h2 class="section-title">New Format of Traditions</h2>
-        <p>
-          <span>lorem ipsum dolor</span> sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <p class="traditions-text">
+          <span class="brand">shop bakery</span> sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
         </p>
-        <p>
-          Ut enim ad minim veniam, <span>quis nostrud</span> exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p class="traditions-text">
+          Ut enim ad minim veniam,
+          <span>five minutes and your order is ready</span> exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.
         </p>
       </section>
-      <section>
-        <h2 class="section-title">Our best <span class="accent">bakers</span></h2>
+      <section id="chefs-section">
+        <h2 class="section-title">
+          Our best <span class="accent">bakers</span>
+        </h2>
         <ul>
           <li>
             <article>
-              <h3>Nastya</h3>
+              <h3 class="chefs-title">Nastya</h3>
               <p>Hi, I am Nastya</p>
               <p>I like coking pastry</p>
               <p>Welcome to my world.</p>
@@ -54,7 +65,7 @@
           </li>
           <li>
             <article>
-              <h3>Vlad</h3>
+              <h3 class="chefs-title">Vlad</h3>
               <p>Hi, i am Vlad</p>
               <p>My passion is cooking</p>
               <p>Let's cooperate</p>
@@ -67,23 +78,42 @@
         <ul>
           <li>
             <article>
-              <h3 class="section-title">Walrus</h3>
+              <h3 class="format-title">Walrus</h3>
+              <div class="format-text">
+                <p>Square meters: 120m2</p>
+                <p>Menu: erupenean</p>
+                <p>Staff: 2 cashiers, 1 baker</p>
+                <p>5 tables</p>
+              </div>
             </article>
           </li>
           <li>
             <article>
-              <h3 class="section-title">Horseshoe</h3>
+              <h3 class="format-title">Horseshoe</h3>
+              <div class="format-text">
+                <p>Square meters: 120m2</p>
+                <p>Menu: erupenean</p>
+                <p>Staff: 2 cashiers, 1 baker</p>
+                <p>5 tables</p>
+              </div>
             </article>
           </li>
           <li>
             <article>
-              <h3 class="section-title">Handlebar</h3>
+              <h3 class="format-title">Handlebar</h3>
+              <div class="format-text">
+                <p>Square meters: 120m2</p>
+                <p>Menu: erupenean</p>
+                <p>Staff: 2 cashiers, 1 baker</p>
+                <p>5 tables</p>
+              </div>
             </article>
           </li>
         </ul>
       </section>
-      <section>
+      <section id="contact-section">
         <h2 class="section-title">Join to the chain of our bakeries</h2>
+        <p>Fill in the form and we contact you!</p>
       </section>
     </main>
     <footer>
@@ -91,25 +121,27 @@
         <a href="#">LOGO</a>
         <!--logo -->
         <ul>
-          <li><a href="#">Franchise</a></li>
-          <li><a href="#">Our Traditions</a></li>
-          <li><a href="#">Formats</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">Gallery</a></li>
+          <li><a  class="link" href="#">Franchise</a></li>
+          <li><a  class="link" href="#">Our Traditions</a></li>
+          <li><a  class="link" href="#">Formats</a></li>
+          <li><a  class="link" href="#">Contacts</a></li>
+          <li><a  class="link" href="#">Gallery</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="tel:+0000000000">0000000000</a></li>
+          <li><a class="address-link" href="tel:+0000000000">0000000000</a></li>
           <li>
-            <a href="mailto:mordernbakery@gmail.com">mordernbakery@gmail.com</a>
+            <a class="address-link" href="mailto:mordernbakery@gmail.com">mordernbakery@gmail.com</a>
           </li>
-          <li><a href="#">Toronto, Maple street, 333</a></li>
+          <li><a class="address-link" href="#">Toronto, Maple street, 333</a></li>
           <li><a href="#">Facebook</a></li>
           <li><a href="#">Instagram</a></li>
         </ul>
+        <a class="address-link" href="">Privacy Policy</a>
+        <p class="address-copyright" lang="uk">&copy 2025 Україна понад усе! 💛💙</p>
       </address>
-      <p lang="uk">Україна понад усе</p>
+      
     </footer>
   </body>
 </html>
